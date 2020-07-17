@@ -10,7 +10,7 @@ def eating_cookies(n):
     # check for negative n values
     elif n < 0:
         return 0
-    # this represents our recursive case where there's still come cookies to be eaten
+    # this represents our recursive case where there's still some cookies to be eaten
     return eating_cookies(n-1) + eating_cookies(n-2) + eating_cookies(n-3)
 
 
